@@ -5,7 +5,7 @@ import { useState } from 'react';
 import logo1 from '../assets/images/logo1.png'
 import linkedin from '../assets/images/linkedinfinal.png'
 import github from '../assets/images/github.svg'
-import insta from '../assets/images/instagramfinal.png'
+import insta from '../assets/images/instagram.png'
 
 function NavBar() {
   const [activeLink,setActiveLink]= useState("home");
@@ -36,7 +36,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink==="home"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#about" className={activeLink==="about"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('about')}>About</Nav.Link>
+            <Nav.Link href="#about" className={activeLink==="about"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('about')}>About Me</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==="skills"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink==="projects"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <Nav.Link href="#experience" className={activeLink==="projects"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('experience')}>Experience</Nav.Link>
@@ -48,7 +48,7 @@ function NavBar() {
               <a href="#"><img src={insta} alt="" /></a>
             </div>
             <button className='vvd' onClick={()=>console.log("connect")}>
-            <span>Let's Connect</span>
+            <span>Contact Me</span>
             </button>
           </span>
         </Navbar.Collapse>
