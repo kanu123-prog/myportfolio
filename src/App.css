@@ -651,3 +651,182 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+
+/* qualifications */
+.qualification{
+  padding: 40px 0 80px 0;
+  position: relative;
+  
+}
+
+
+.qualification__conatiner{
+  max-width: 48rem;
+
+}
+.qualification__tabs{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.qualification__button{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0 1.5rem;
+  cursor: pointer;
+  color: #B8B8B8;
+}
+
+.qualification__button:hover{
+  color: whitesmoke;
+
+}
+
+.qualification__icon{
+  font-size: 1.8rem;  
+}
+
+.qualification__active{
+  color: whitesmoke;
+}
+
+.qualification__sections{
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.qualification__content{
+  display: none;
+}
+
+.qualification__content-active{
+  display: block;
+}
+
+.qualification__data{
+  display: grid;
+  grid-template-columns:1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification__title{
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
+.qualification__subtitle{
+  display: inline-block;
+  font-size: medium;
+  color: #B8B8B8;
+  margin-bottom: 1px;
+}
+
+.qualification__calender{
+  font-size: medium;
+  color: #B8B8B8;
+}
+
+.qualification__rounder{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.qualification__line{
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: whitesmoke;
+  transform: translate(6px, -7px);
+}
+
+.section__title{
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center
+}
+
+.section__subtitle{
+  color: #B8B8B8;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+ 
+  text-align: center;
+  
+}
+
+/* footer */
+.Footer {
+  padding: 2rem 0;
+  /* margin-top: 15rem; */
+}
+
+.ft-1 h3 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.ft-1 span {
+  color: #B8B8B8;
+}
+
+.ft-1 p {
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+}
+
+.footer-icon{
+  margin-left: -5px;
+}
+
+
+
+.Footer h5 {
+  color: #B8B8B8;
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.06rem;
+}
+
+.ft-3 p {
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+}
+
+.ft-3 i {
+  padding-right: 0.5rem;
+}
+
+.Last-footer {
+  background: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Last-footer p{
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

@@ -39,7 +39,7 @@ function NavBar() {
             <Nav.Link href="#about" className={activeLink==="about"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('about')}>About Me</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==="skills"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink==="projects"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#experience" className={activeLink==="projects"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('experience')}>Experience</Nav.Link>
+            <Nav.Link href="#qualifications" className={activeLink==="qualifications"?"active navbar-link": "navbar-link"} onClick={()=>onUpdateActiveLink('qualifications')}>Qualifications</Nav.Link>
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
@@ -47,7 +47,7 @@ function NavBar() {
               <a href="#"><img src={github} alt="" /></a>
               <a href="#"><img src={insta} alt="" /></a>
             </div>
-            <button className='vvd' onClick={()=>console.log("connect")}>
+            <button className='vvd'  onClick={()=>console.log("connect")}>
             <span>Contact Me</span>
             </button>
           </span>
