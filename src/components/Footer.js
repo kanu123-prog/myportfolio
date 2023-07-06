@@ -34,27 +34,27 @@ const Footer = () => {
               <h5>Quick Links</h5>
               <ul>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="#home">
                     🔗 Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="#about">
                     🔗 About me
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="#skills">
                     🔗 Skills
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="#projects">
                     🔗 Projects
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="#qualifications">
                     🔗 Qualifications
                   </a>
                 </li>

@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/images/project-img1.png";
-import projImg2 from "../assets/images/project-img2.png";
-import projImg3 from "../assets/images/project-img3.png";
+import secrets from "../assets/images/secret_site.png";
+import blogs from "../assets/images/blog_site.png";
+import kpfoods from "../assets/images/food_site.png";
 import colorSharp2 from "../assets/images/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,39 +11,25 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Stay Anonymous",
+      description: "you can share all your secrets on this site anonymously",
+      imgUrl: secrets,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "kpFoods",
+      description: "A food-ordering website, made using MERN stack",
+      imgUrl: kpfoods,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Blog Website",
+      description: "a website where you can compose and publish all your day to day blogs",
+      imgUrl: blogs,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -51,7 +37,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Welcome to my portfolio's projects section! I specialize in using the MERN stack and libraries like Bootstrap and Tailwind CSS to create dynamic and responsive web applications. Explore my diverse range of projects, showcasing scalable, performant, and user-friendly solutions.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

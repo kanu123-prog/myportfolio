@@ -13,15 +13,21 @@ export default function About() {
         <h2 className="heading">About Me</h2>
         <h3>Get to know about me!</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto atque
-          nostrum consequatur modi vel cum perspiciatis, amet consectetur odio
-          accusantium repellat quia maxime reiciendis deserunt quod tempora fuga
-          quidem dolorem mollitia ratione sequi earum temporibus debitis in.
-          Quaerat, provident illo inventore aspernatur cupiditate pariatur, et
-          harum aperiam, ad saepe totam delectus accusamus neque iure fugit
-          dicta eligendi impedit distinctio dolores.
+          Hello, I'm Kanupriya Agarwal, currently pursuing a B.Tech in Computer
+          Science from Banasthali Vidyapith, Rajasthan. I'm in my third year of
+          studies and have developed a strong passion for web development and
+          design. Always eager to learn and grow, I actively seek opportunities
+          to expand my knowledge and skill set. I'm also drawn to the exciting
+          field of AI/ML and have plans to delve into it further. With my
+          confidence, dedication, and perseverance, I believe I can make a
+          valuable contribution to any team or project. Let's connect and create
+          something remarkable together!
         </p>
-        <a download="" href={resume} className="resume"><span>Download Resume <ArrowDownCircle/></span></a>
+        <a download="" href={resume} className="resume">
+          <span>
+            Download Resume <ArrowDownCircle />
+          </span>
+        </a>
       </div>
     </section>
   );

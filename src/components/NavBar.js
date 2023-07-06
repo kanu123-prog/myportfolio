@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+
 import Nav from 'react-bootstrap/Nav';
 import { Navbar,Container } from 'react-bootstrap'
 import { useState } from 'react';
@@ -7,9 +8,14 @@ import linkedin from '../assets/images/linkedinfinal.png'
 import github from '../assets/images/github.svg'
 import insta from '../assets/images/instagram.png'
 
+
+
 function NavBar() {
+  
   const [activeLink,setActiveLink]= useState("home");
   const [scrolled, setScrolled]= useState(false);
+ 
+ 
 
   useEffect(()=>{
     const onScroll=()=>{
@@ -28,6 +34,7 @@ function NavBar() {
     setActiveLink(value);
   }
   return (
+   
          <>
       <Navbar expand="lg" className={scrolled? "scrolled": ""}>
       <Container>
@@ -43,19 +50,21 @@ function NavBar() {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-              <a href="#"><img src={linkedin} alt="" /></a>
-              <a href="#"><img src={github} alt="" /></a>
-              <a href="#"><img src={insta} alt="" /></a>
+              <a href="https://www.linkedin.com/in/kanupriya-agarwal-794b1921b/"><img src={linkedin} alt="" /></a>
+              <a href="https://github.com/kanu123-prog"><img src={github} alt="" /></a>
+              <a href="https://www.instagram.com/kxnupriya/"><img src={insta} alt="" /></a>
             </div>
-            <button className='vvd'  onClick={()=>console.log("connect")}>
-            <span>Contact Me</span>
+            <button className='vvd' onClick={()=>console.log("connext")}>
+            {/* <span>Contact me</span> */}
+            <span><a href="#contacts">Contact me</a></span>
             </button>
           </span>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
     </>
+   
   )
 }
 
