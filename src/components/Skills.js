@@ -11,7 +11,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import leftArrow from "../assets/images/left-arrow.png";
 import rightArrow from "../assets/images/right-arrow.png";
-import colorSharp from "../assets/images/color-sharp2.png"
+import colorSharp from "../assets/images/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {
