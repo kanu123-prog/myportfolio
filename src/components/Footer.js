@@ -19,13 +19,13 @@ const Footer = () => {
                 voluptate.
               </p>
               <div className="social-icon footer-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kanupriya-agarwal-794b1921b/">
                   <img src={linkedin} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/kanu123-prog">
                   <img src={github} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/kxnupriya/">
                   <img src={insta} alt="" />
                 </a>
               </div>
