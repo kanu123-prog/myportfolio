@@ -235,6 +235,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+@media (max-width: 768px) {
+  nav.navbar .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 15px 0;
+  }
+  nav.navbar .navbar-toggler {
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+}
+
+/* Add this media query for smaller screens */
+@media (max-width: 576px) {
+  nav.navbar .navbar-brand {
+    width: auto;
+  }
+}
 /************ Banner Css ************/
 .banner {
     margin-top: 0;
@@ -331,6 +352,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
+  /* @media (max-width: 768px) {
+    .banner {
+      padding: 100px 0 50px 0;
+    }
+    .banner h1 {
+      font-size: 40px;
+    }
+    .banner p {
+      width: 100%;
+    }
+    .banner img {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .banner button {
+      margin-top: 40px;
+      display: block;
+    }
+    .banner button svg {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  } */
+  
 /* skills */
   .skill {
     padding: 0 0 50px 0;
@@ -422,6 +467,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin:2rem 0 3rem;
     color: #B8B8B8
   
+  }
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+    }
+    .about-img {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .about-img img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+    .about-content {
+      text-align: center;
+    }
   }
 
   .resume{
@@ -590,6 +655,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+@media (max-width: 768px) {
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .proj-imgbx {
+    margin-bottom: 15px;
+  }
+}
+
 /* contacts.css */
 
 .contact {
@@ -662,6 +736,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .contact form input,
+  .contact form textarea {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+  .contact form button {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+}
+
+/* Add this media query for smaller screens */
+@media (max-width: 576px) {
+  .contact form input,
+  .contact form textarea {
+    font-size: 14px;
+  }
+  .contact form button {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}
+
 
 /* qualifications */
 .qualification{
@@ -771,6 +869,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
   text-align: center;
   
+}
+@media (max-width: 768px) {
+  .qualification__tabs {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .qualification__button {
+    margin: 0.5rem 0;
+  }
+  .qualification__sections {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
 }
 
 /* footer */

@@ -1,5 +1,5 @@
 import React from "react";
-import kappu from "../assets/images/kappu.jpg";
+import kappu from "../assets/images/kappu2.jpg";
 import resume from "../assets/images/Rezume.pdf";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 export default function About() {

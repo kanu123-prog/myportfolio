@@ -13,7 +13,7 @@ import { Contacts } from "./Contacts";
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "AI-ML Enthusiast", "Web Designer"];
+  const toRotate = ["Web Developer", "Student", "Web Designer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
